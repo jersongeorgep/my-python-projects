@@ -1,0 +1,94 @@
+-- Projects basic info
+CREATE TABLE projects (
+    id INT AUTO_INCREMENT PRIMARY KEY,
+    name VARCHAR(255) NOT NULL,
+    client_name VARCHAR(255),
+    project_code VARCHAR(100),
+    start_date DATE,
+    end_date DATE,
+    overview TEXT,
+    scope_in_scope TEXT,
+    scope_out_scope TEXT,
+    created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP,
+    updated_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP ON UPDATE CURRENT_TIMESTAMP
+);
+
+-- Team members
+CREATE TABLE project_team_members (
+    id INT AUTO_INCREMENT PRIMARY KEY,
+    project_id INT NOT NULL,
+    name VARCHAR(255),
+    role VARCHAR(255),
+    responsibility TEXT,
+    FOREIGN KEY (project_id) REFERENCES projects(id) ON DELETE CASCADE
+);
+
+-- Tasks (for Gantt + plan)
+CREATE TABLE project_tasks (
+    id INT AUTO_INCREMENT PRIMARY KEY,
+    project_id INT NOT NULL,
+    task VARCHAR(255),
+    owner VARCHAR(255),
+    start_date DATE,
+    end_date DATE,
+    status VARCHAR(50),
+    FOREIGN KEY (project_id) REFERENCES projects(id) ON DELETE CASCADE
+);
+
+-- Risks
+CREATE TABLE project_risks (
+    id INT AUTO_INCREMENT PRIMARY KEY,
+    project_id INT NOT NULL,
+    risk_id VARCHAR(50),
+    description TEXT,
+    likelihood VARCHAR(50),
+    impact VARCHAR(50),
+    treatment TEXT,
+    FOREIGN KEY (project_id) REFERENCES projects(id) ON DELETE CASCADE
+);
+
+-- Test cases
+CREATE TABLE project_test_cases (
+    id INT AUTO_INCREMENT PRIMARY KEY,
+    project_id INT NOT NULL,
+    test_case_id VARCHAR(50),
+    description TEXT,
+    preconditions TEXT,
+    steps TEXT,
+    expected TEXT,
+    status VARCHAR(50),
+    FOREIGN KEY (project_id) REFERENCES projects(id) ON DELETE CASCADE
+);
+
+-- APIs
+CREATE TABLE project_apis (
+    id INT AUTO_INCREMENT PRIMARY KEY,
+    project_id INT NOT NULL,
+    endpoint VARCHAR(255),
+    method VARCHAR(10),
+    description TEXT,
+    auth VARCHAR(50),
+    params_body TEXT,
+    FOREIGN KEY (project_id) REFERENCES projects(id) ON DELETE CASCADE
+);
+
+-- Change requests
+CREATE TABLE project_change_requests (
+    id INT AUTO_INCREMENT PRIMARY KEY,
+    project_id INT NOT NULL,
+    cr_id VARCHAR(50),
+    title VARCHAR(255),
+    raised_by VARCHAR(255),
+    impact VARCHAR(50),
+    status VARCHAR(50),
+    FOREIGN KEY (project_id) REFERENCES projects(id) ON DELETE CASCADE
+);
+
+CREATE TABLE project_sections (
+    id INT AUTO_INCREMENT PRIMARY KEY,
+    project_id INT NOT NULL,
+    section_key VARCHAR(100), -- e.g. 'srs_intro', 'sds_architecture'
+    content LONGTEXT,
+    UNIQUE KEY uniq_section (project_id, section_key),
+    FOREIGN KEY (project_id) REFERENCES projects(id) ON DELETE CASCADE
+);

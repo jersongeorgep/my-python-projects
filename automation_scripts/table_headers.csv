@@ -1,0 +1,352 @@
+PageURL,TableHeader
+http://localhost:8080/oshaiger-bgsoft/admin/leads,Sl.No.
+http://localhost:8080/oshaiger-bgsoft/admin/leads,Name
+http://localhost:8080/oshaiger-bgsoft/admin/leads,Company
+http://localhost:8080/oshaiger-bgsoft/admin/leads,Email
+http://localhost:8080/oshaiger-bgsoft/admin/leads,Phone
+http://localhost:8080/oshaiger-bgsoft/admin/leads,Value
+http://localhost:8080/oshaiger-bgsoft/admin/leads,Tags
+http://localhost:8080/oshaiger-bgsoft/admin/leads,Assigned
+http://localhost:8080/oshaiger-bgsoft/admin/leads,Status
+http://localhost:8080/oshaiger-bgsoft/admin/leads,Source
+http://localhost:8080/oshaiger-bgsoft/admin/leads,Last Contact
+http://localhost:8080/oshaiger-bgsoft/admin/leads,Created
+http://localhost:8080/oshaiger-bgsoft/admin/clients,Sl.No.
+http://localhost:8080/oshaiger-bgsoft/admin/clients,Company
+http://localhost:8080/oshaiger-bgsoft/admin/clients,Primary Contact
+http://localhost:8080/oshaiger-bgsoft/admin/clients,Primary Email
+http://localhost:8080/oshaiger-bgsoft/admin/clients,Phone
+http://localhost:8080/oshaiger-bgsoft/admin/clients,Active
+http://localhost:8080/oshaiger-bgsoft/admin/clients,Groups
+http://localhost:8080/oshaiger-bgsoft/admin/clients,Date Created
+http://localhost:8080/oshaiger-bgsoft/admin/proposals,Quotation #
+http://localhost:8080/oshaiger-bgsoft/admin/proposals,Subject
+http://localhost:8080/oshaiger-bgsoft/admin/proposals,To
+http://localhost:8080/oshaiger-bgsoft/admin/proposals,Total
+http://localhost:8080/oshaiger-bgsoft/admin/proposals,Date
+http://localhost:8080/oshaiger-bgsoft/admin/proposals,Open Till
+http://localhost:8080/oshaiger-bgsoft/admin/proposals,Project
+http://localhost:8080/oshaiger-bgsoft/admin/proposals,Type
+http://localhost:8080/oshaiger-bgsoft/admin/proposals,Date Created
+http://localhost:8080/oshaiger-bgsoft/admin/proposals,Status
+http://localhost:8080/oshaiger-bgsoft/admin/proposals,Tender No.
+http://localhost:8080/oshaiger-bgsoft/admin/estimates,Sale order #
+http://localhost:8080/oshaiger-bgsoft/admin/estimates,Amount
+http://localhost:8080/oshaiger-bgsoft/admin/estimates,Total Tax
+http://localhost:8080/oshaiger-bgsoft/admin/estimates,Customer
+http://localhost:8080/oshaiger-bgsoft/admin/estimates,Project
+http://localhost:8080/oshaiger-bgsoft/admin/estimates,Tags
+http://localhost:8080/oshaiger-bgsoft/admin/estimates,Date
+http://localhost:8080/oshaiger-bgsoft/admin/estimates,Expiry Date
+http://localhost:8080/oshaiger-bgsoft/admin/estimates,Reference #
+http://localhost:8080/oshaiger-bgsoft/admin/estimates,Status
+http://localhost:8080/oshaiger-bgsoft/admin/invoices,Invoice #
+http://localhost:8080/oshaiger-bgsoft/admin/invoices,Amount
+http://localhost:8080/oshaiger-bgsoft/admin/invoices,Total Tax
+http://localhost:8080/oshaiger-bgsoft/admin/invoices,Date
+http://localhost:8080/oshaiger-bgsoft/admin/invoices,Customer
+http://localhost:8080/oshaiger-bgsoft/admin/invoices,Project
+http://localhost:8080/oshaiger-bgsoft/admin/invoices,Tags
+http://localhost:8080/oshaiger-bgsoft/admin/invoices,Due Date
+http://localhost:8080/oshaiger-bgsoft/admin/invoices,Status
+http://localhost:8080/oshaiger-bgsoft/admin/payments,Payment #
+http://localhost:8080/oshaiger-bgsoft/admin/payments,Invoice #
+http://localhost:8080/oshaiger-bgsoft/admin/payments,Payment Mode
+http://localhost:8080/oshaiger-bgsoft/admin/payments,Transaction ID
+http://localhost:8080/oshaiger-bgsoft/admin/payments,Customer
+http://localhost:8080/oshaiger-bgsoft/admin/payments,Amount
+http://localhost:8080/oshaiger-bgsoft/admin/payments,Date
+http://localhost:8080/oshaiger-bgsoft/admin/credit_notes,Credit Note #
+http://localhost:8080/oshaiger-bgsoft/admin/credit_notes,Credit Note Date
+http://localhost:8080/oshaiger-bgsoft/admin/credit_notes,Customer
+http://localhost:8080/oshaiger-bgsoft/admin/credit_notes,Status
+http://localhost:8080/oshaiger-bgsoft/admin/credit_notes,Project
+http://localhost:8080/oshaiger-bgsoft/admin/credit_notes,Reference #
+http://localhost:8080/oshaiger-bgsoft/admin/credit_notes,Amount
+http://localhost:8080/oshaiger-bgsoft/admin/credit_notes,Remaining Amount
+http://localhost:8080/oshaiger-bgsoft/admin/new-estimate,Estimate #
+http://localhost:8080/oshaiger-bgsoft/admin/new-estimate,Amount
+http://localhost:8080/oshaiger-bgsoft/admin/new-estimate,Total Tax
+http://localhost:8080/oshaiger-bgsoft/admin/new-estimate,Customer
+http://localhost:8080/oshaiger-bgsoft/admin/new-estimate,Project
+http://localhost:8080/oshaiger-bgsoft/admin/new-estimate,Tags
+http://localhost:8080/oshaiger-bgsoft/admin/new-estimate,Date
+http://localhost:8080/oshaiger-bgsoft/admin/new-estimate,Expiry Date
+http://localhost:8080/oshaiger-bgsoft/admin/new-estimate,Reference #
+http://localhost:8080/oshaiger-bgsoft/admin/new-estimate,Status
+http://localhost:8080/oshaiger-bgsoft/admin/purchase/items,Image
+http://localhost:8080/oshaiger-bgsoft/admin/purchase/items,Item Code
+http://localhost:8080/oshaiger-bgsoft/admin/purchase/items,Item Description
+http://localhost:8080/oshaiger-bgsoft/admin/purchase/items,Groups
+http://localhost:8080/oshaiger-bgsoft/admin/purchase/items,Unit Name
+http://localhost:8080/oshaiger-bgsoft/admin/purchase/items,Sale price
+http://localhost:8080/oshaiger-bgsoft/admin/purchase/items,Purchase Price
+http://localhost:8080/oshaiger-bgsoft/admin/purchase/items,Tax
+http://localhost:8080/oshaiger-bgsoft/admin/purchase/items,From Vendor
+http://localhost:8080/oshaiger-bgsoft/admin/purchase/vendor_items,Vendors
+http://localhost:8080/oshaiger-bgsoft/admin/purchase/vendor_items,Items
+http://localhost:8080/oshaiger-bgsoft/admin/purchase/vendor_items,Date create
+http://localhost:8080/oshaiger-bgsoft/admin/purchase/vendors,Sl.No.
+http://localhost:8080/oshaiger-bgsoft/admin/purchase/vendors,Company
+http://localhost:8080/oshaiger-bgsoft/admin/purchase/vendors,Primary Contact
+http://localhost:8080/oshaiger-bgsoft/admin/purchase/vendors,Primary Email
+http://localhost:8080/oshaiger-bgsoft/admin/purchase/vendors,Phone
+http://localhost:8080/oshaiger-bgsoft/admin/purchase/vendors,Vendor category
+http://localhost:8080/oshaiger-bgsoft/admin/purchase/vendors,Active
+http://localhost:8080/oshaiger-bgsoft/admin/purchase/vendors,Date Created
+http://localhost:8080/oshaiger-bgsoft/admin/purchase/purchase_request,Purchase Request Code
+http://localhost:8080/oshaiger-bgsoft/admin/purchase/purchase_request,Purchase Request Name
+http://localhost:8080/oshaiger-bgsoft/admin/purchase/purchase_request,Requester
+http://localhost:8080/oshaiger-bgsoft/admin/purchase/purchase_request,Department
+http://localhost:8080/oshaiger-bgsoft/admin/purchase/purchase_request,Request time
+http://localhost:8080/oshaiger-bgsoft/admin/purchase/purchase_request,Status
+http://localhost:8080/oshaiger-bgsoft/admin/purchase/purchase_request,PO No.
+http://localhost:8080/oshaiger-bgsoft/admin/purchase/purchase_request,Options
+http://localhost:8080/oshaiger-bgsoft/admin/purchase/purchase_order,Purchase order
+http://localhost:8080/oshaiger-bgsoft/admin/purchase/purchase_order,Vendors
+http://localhost:8080/oshaiger-bgsoft/admin/purchase/purchase_order,Order date
+http://localhost:8080/oshaiger-bgsoft/admin/purchase/purchase_order,Type
+http://localhost:8080/oshaiger-bgsoft/admin/purchase/purchase_order,Project
+http://localhost:8080/oshaiger-bgsoft/admin/purchase/purchase_order,Department
+http://localhost:8080/oshaiger-bgsoft/admin/purchase/purchase_order,PO Description
+http://localhost:8080/oshaiger-bgsoft/admin/purchase/purchase_order,PO Value
+http://localhost:8080/oshaiger-bgsoft/admin/purchase/purchase_order,Tax Value
+http://localhost:8080/oshaiger-bgsoft/admin/purchase/purchase_order,PO value inclued tax
+http://localhost:8080/oshaiger-bgsoft/admin/purchase/purchase_order,Tags
+http://localhost:8080/oshaiger-bgsoft/admin/purchase/purchase_order,Approval status
+http://localhost:8080/oshaiger-bgsoft/admin/purchase/purchase_order,Delivery date
+http://localhost:8080/oshaiger-bgsoft/admin/purchase/purchase_order,Delivery status
+http://localhost:8080/oshaiger-bgsoft/admin/purchase/purchase_order,Payment status
+http://localhost:8080/oshaiger-bgsoft/admin/purchase/purchase_order,Convert to expense
+http://localhost:8080/oshaiger-bgsoft/admin/purchase/proforma_invoice,Title
+http://localhost:8080/oshaiger-bgsoft/admin/purchase/proforma_invoice,Ref. No.
+http://localhost:8080/oshaiger-bgsoft/admin/purchase/proforma_invoice,Date
+http://localhost:8080/oshaiger-bgsoft/admin/purchase/proforma_invoice,Vendor
+http://localhost:8080/oshaiger-bgsoft/admin/purchase/proforma_invoice,PO Number
+http://localhost:8080/oshaiger-bgsoft/admin/purchase/proforma_invoice,Shipped Via
+http://localhost:8080/oshaiger-bgsoft/admin/purchase/proforma_invoice,Currency
+http://localhost:8080/oshaiger-bgsoft/admin/purchase/proforma_invoice,Total
+http://localhost:8080/oshaiger-bgsoft/admin/purchase/invoices,Invoice number
+http://localhost:8080/oshaiger-bgsoft/admin/purchase/invoices,Vendors
+http://localhost:8080/oshaiger-bgsoft/admin/purchase/invoices,Proforma Invoices
+http://localhost:8080/oshaiger-bgsoft/admin/purchase/invoices,GRN Number
+http://localhost:8080/oshaiger-bgsoft/admin/purchase/invoices,Invoice date
+http://localhost:8080/oshaiger-bgsoft/admin/purchase/invoices,Recurring from
+http://localhost:8080/oshaiger-bgsoft/admin/purchase/invoices,Invoice amount
+http://localhost:8080/oshaiger-bgsoft/admin/purchase/invoices,Tax Value
+http://localhost:8080/oshaiger-bgsoft/admin/purchase/invoices,Total included tax
+http://localhost:8080/oshaiger-bgsoft/admin/purchase/invoices,Payment request status
+http://localhost:8080/oshaiger-bgsoft/admin/purchase/invoices,Payment status
+http://localhost:8080/oshaiger-bgsoft/admin/purchase/invoices,Transaction ID
+http://localhost:8080/oshaiger-bgsoft/admin/purchase/invoices,Tag
+http://localhost:8080/oshaiger-bgsoft/admin/purchase/order_returns,Order Return Number
+http://localhost:8080/oshaiger-bgsoft/admin/purchase/order_returns,Vendor
+http://localhost:8080/oshaiger-bgsoft/admin/purchase/order_returns,Total amount
+http://localhost:8080/oshaiger-bgsoft/admin/purchase/order_returns,Discount total
+http://localhost:8080/oshaiger-bgsoft/admin/purchase/order_returns,Total after discount
+http://localhost:8080/oshaiger-bgsoft/admin/purchase/order_returns,Date created
+http://localhost:8080/oshaiger-bgsoft/admin/purchase/order_returns,Status
+http://localhost:8080/oshaiger-bgsoft/admin/purchase/debit_notes,Debit Note Number
+http://localhost:8080/oshaiger-bgsoft/admin/purchase/debit_notes,Debit Note Date
+http://localhost:8080/oshaiger-bgsoft/admin/purchase/debit_notes,Vendors
+http://localhost:8080/oshaiger-bgsoft/admin/purchase/debit_notes,Status
+http://localhost:8080/oshaiger-bgsoft/admin/purchase/debit_notes,Reference #
+http://localhost:8080/oshaiger-bgsoft/admin/purchase/debit_notes,Amount
+http://localhost:8080/oshaiger-bgsoft/admin/purchase/debit_notes,Remaing Amount
+http://localhost:8080/oshaiger-bgsoft/admin/purchase/contracts,Department
+http://localhost:8080/oshaiger-bgsoft/admin/purchase/contracts,Project
+http://localhost:8080/oshaiger-bgsoft/admin/purchase/contracts,Service category
+http://localhost:8080/oshaiger-bgsoft/admin/purchase/contracts,Vendors
+http://localhost:8080/oshaiger-bgsoft/admin/purchase/contracts,Contract description
+http://localhost:8080/oshaiger-bgsoft/admin/purchase/contracts,Tender Value
+http://localhost:8080/oshaiger-bgsoft/admin/purchase/contracts,Payment amount
+http://localhost:8080/oshaiger-bgsoft/admin/purchase/contracts,Payment cycle
+http://localhost:8080/oshaiger-bgsoft/admin/purchase/contracts,Payment terms
+http://localhost:8080/oshaiger-bgsoft/admin/purchase/contracts,Start date
+http://localhost:8080/oshaiger-bgsoft/admin/purchase/contracts,End date
+http://localhost:8080/oshaiger-bgsoft/admin/purchase/contracts,Status
+http://localhost:8080/oshaiger-bgsoft/admin/warehouse/manage_purchase,Delivery docket code
+http://localhost:8080/oshaiger-bgsoft/admin/warehouse/manage_purchase,Supplier name
+http://localhost:8080/oshaiger-bgsoft/admin/warehouse/manage_purchase,Buyer
+http://localhost:8080/oshaiger-bgsoft/admin/warehouse/manage_purchase,Commercial Invoice
+http://localhost:8080/oshaiger-bgsoft/admin/warehouse/manage_purchase,Voucher Date
+http://localhost:8080/oshaiger-bgsoft/admin/warehouse/manage_purchase,Total tax amount
+http://localhost:8080/oshaiger-bgsoft/admin/warehouse/manage_purchase,Total goods value
+http://localhost:8080/oshaiger-bgsoft/admin/warehouse/manage_purchase,Value of inventory
+http://localhost:8080/oshaiger-bgsoft/admin/warehouse/manage_purchase,Total payment
+http://localhost:8080/oshaiger-bgsoft/admin/warehouse/manage_purchase,Status
+http://localhost:8080/oshaiger-bgsoft/admin/warehouse/manage_delivery,Inventory delivery voucher code
+http://localhost:8080/oshaiger-bgsoft/admin/warehouse/manage_delivery,Customer name
+http://localhost:8080/oshaiger-bgsoft/admin/warehouse/manage_delivery,Voucher Date
+http://localhost:8080/oshaiger-bgsoft/admin/warehouse/manage_delivery,Invoices
+http://localhost:8080/oshaiger-bgsoft/admin/warehouse/manage_delivery,to
+http://localhost:8080/oshaiger-bgsoft/admin/warehouse/manage_delivery,Address
+http://localhost:8080/oshaiger-bgsoft/admin/warehouse/manage_delivery,HR code
+http://localhost:8080/oshaiger-bgsoft/admin/warehouse/manage_delivery,Status
+http://localhost:8080/oshaiger-bgsoft/admin/warehouse/manage_delivery,Delivery status
+http://localhost:8080/oshaiger-bgsoft/admin/warehouse/manage_internal_delivery,Internal delivery note
+http://localhost:8080/oshaiger-bgsoft/admin/warehouse/manage_internal_delivery,Deliverer
+http://localhost:8080/oshaiger-bgsoft/admin/warehouse/manage_internal_delivery,Added from
+http://localhost:8080/oshaiger-bgsoft/admin/warehouse/manage_internal_delivery,Date created
+http://localhost:8080/oshaiger-bgsoft/admin/warehouse/manage_internal_delivery,Total amount
+http://localhost:8080/oshaiger-bgsoft/admin/warehouse/manage_internal_delivery,Status
+http://localhost:8080/oshaiger-bgsoft/admin/warehouse/loss_adjustment,Type
+http://localhost:8080/oshaiger-bgsoft/admin/warehouse/loss_adjustment,Time (lost or adjusted )
+http://localhost:8080/oshaiger-bgsoft/admin/warehouse/loss_adjustment,Date created
+http://localhost:8080/oshaiger-bgsoft/admin/warehouse/loss_adjustment,Status
+http://localhost:8080/oshaiger-bgsoft/admin/warehouse/loss_adjustment,Reason
+http://localhost:8080/oshaiger-bgsoft/admin/warehouse/loss_adjustment,creator
+http://localhost:8080/oshaiger-bgsoft/admin/warehouse/loss_adjustment,Options
+http://localhost:8080/oshaiger-bgsoft/admin/warehouse/manage_packing_list,Packing list number
+http://localhost:8080/oshaiger-bgsoft/admin/warehouse/manage_packing_list,Customer name
+http://localhost:8080/oshaiger-bgsoft/admin/warehouse/manage_packing_list,Dimension
+http://localhost:8080/oshaiger-bgsoft/admin/warehouse/manage_packing_list,Volume (m3)
+http://localhost:8080/oshaiger-bgsoft/admin/warehouse/manage_packing_list,Total amount
+http://localhost:8080/oshaiger-bgsoft/admin/warehouse/manage_packing_list,Discount total
+http://localhost:8080/oshaiger-bgsoft/admin/warehouse/manage_packing_list,Total after discount
+http://localhost:8080/oshaiger-bgsoft/admin/warehouse/manage_packing_list,Date created
+http://localhost:8080/oshaiger-bgsoft/admin/warehouse/manage_packing_list,Status
+http://localhost:8080/oshaiger-bgsoft/admin/warehouse/manage_packing_list,Delivery status
+http://localhost:8080/oshaiger-bgsoft/admin/warehouse/manage_order_return,Order return number
+http://localhost:8080/oshaiger-bgsoft/admin/warehouse/manage_order_return,Customer name
+http://localhost:8080/oshaiger-bgsoft/admin/warehouse/manage_order_return,Total amount
+http://localhost:8080/oshaiger-bgsoft/admin/warehouse/manage_order_return,Discount total
+http://localhost:8080/oshaiger-bgsoft/admin/warehouse/manage_order_return,Total after discount
+http://localhost:8080/oshaiger-bgsoft/admin/warehouse/manage_order_return,Date created
+http://localhost:8080/oshaiger-bgsoft/admin/warehouse/manage_order_return,Type
+http://localhost:8080/oshaiger-bgsoft/admin/warehouse/manage_order_return,Status
+http://localhost:8080/oshaiger-bgsoft/admin/warehouse/manage_order_return,option
+http://localhost:8080/oshaiger-bgsoft/admin/warehouse/warehouse_mange,Warehouse code
+http://localhost:8080/oshaiger-bgsoft/admin/warehouse/warehouse_mange,Warehouse name
+http://localhost:8080/oshaiger-bgsoft/admin/warehouse/warehouse_mange,Warehouse address
+http://localhost:8080/oshaiger-bgsoft/admin/warehouse/warehouse_mange,Order
+http://localhost:8080/oshaiger-bgsoft/admin/warehouse/warehouse_mange,Display
+http://localhost:8080/oshaiger-bgsoft/admin/warehouse/warehouse_mange,Note
+http://localhost:8080/oshaiger-bgsoft/admin/warehouse/warehouse_history,Form code
+http://localhost:8080/oshaiger-bgsoft/admin/warehouse/warehouse_history,Item Code
+http://localhost:8080/oshaiger-bgsoft/admin/warehouse/warehouse_history,Warehouse code
+http://localhost:8080/oshaiger-bgsoft/admin/warehouse/warehouse_history,Warehouse name
+http://localhost:8080/oshaiger-bgsoft/admin/warehouse/warehouse_history,Voucher Date
+http://localhost:8080/oshaiger-bgsoft/admin/warehouse/warehouse_history,Opening stock
+http://localhost:8080/oshaiger-bgsoft/admin/warehouse/warehouse_history,Closing Stock
+http://localhost:8080/oshaiger-bgsoft/admin/warehouse/warehouse_history,Batch number/Quantity sold
+http://localhost:8080/oshaiger-bgsoft/admin/warehouse/warehouse_history,Expiry Date
+http://localhost:8080/oshaiger-bgsoft/admin/warehouse/warehouse_history,Serial number
+http://localhost:8080/oshaiger-bgsoft/admin/warehouse/warehouse_history,Note
+http://localhost:8080/oshaiger-bgsoft/admin/warehouse/warehouse_history,Status
+http://localhost:8080/oshaiger-bgsoft/admin/accounting/banking?group=bank_accounts,Name
+http://localhost:8080/oshaiger-bgsoft/admin/accounting/banking?group=bank_accounts,Parent account
+http://localhost:8080/oshaiger-bgsoft/admin/accounting/banking?group=bank_accounts,Type
+http://localhost:8080/oshaiger-bgsoft/admin/accounting/banking?group=bank_accounts,Detail type
+http://localhost:8080/oshaiger-bgsoft/admin/accounting/banking?group=bank_accounts,Primary balance
+http://localhost:8080/oshaiger-bgsoft/admin/accounting/banking?group=bank_accounts,Bank balance
+http://localhost:8080/oshaiger-bgsoft/admin/accounting/banking?group=bank_accounts,Active
+http://localhost:8080/oshaiger-bgsoft/admin/accounting/banking?group=bank_accounts,Options
+http://localhost:8080/oshaiger-bgsoft/admin/accounting/journal_entry,Journal date
+http://localhost:8080/oshaiger-bgsoft/admin/accounting/journal_entry,Number - Description
+http://localhost:8080/oshaiger-bgsoft/admin/accounting/journal_entry,Amount
+http://localhost:8080/oshaiger-bgsoft/admin/accounting/transaction?group=sales,Date
+http://localhost:8080/oshaiger-bgsoft/admin/accounting/transaction?group=sales,Amount
+http://localhost:8080/oshaiger-bgsoft/admin/accounting/transaction?group=sales,Payment Mode
+http://localhost:8080/oshaiger-bgsoft/admin/accounting/transaction?group=sales,Invoice
+http://localhost:8080/oshaiger-bgsoft/admin/accounting/transaction?group=sales,Status
+http://localhost:8080/oshaiger-bgsoft/admin/accounting/transaction?group=sales,Mapping
+http://localhost:8080/oshaiger-bgsoft/admin/accounting/transfer,Transfer funds from
+http://localhost:8080/oshaiger-bgsoft/admin/accounting/transfer,Transfer funds to
+http://localhost:8080/oshaiger-bgsoft/admin/accounting/transfer,Transfer amount
+http://localhost:8080/oshaiger-bgsoft/admin/accounting/transfer,Date
+http://localhost:8080/oshaiger-bgsoft/admin/accounting/chart_of_accounts,Name
+http://localhost:8080/oshaiger-bgsoft/admin/accounting/chart_of_accounts,Parent account
+http://localhost:8080/oshaiger-bgsoft/admin/accounting/chart_of_accounts,Type
+http://localhost:8080/oshaiger-bgsoft/admin/accounting/chart_of_accounts,Detail type
+http://localhost:8080/oshaiger-bgsoft/admin/accounting/chart_of_accounts,Primary balance
+http://localhost:8080/oshaiger-bgsoft/admin/accounting/chart_of_accounts,Bank balance
+http://localhost:8080/oshaiger-bgsoft/admin/accounting/chart_of_accounts,Active
+http://localhost:8080/oshaiger-bgsoft/admin/accounting/chart_of_accounts,Options
+http://localhost:8080/oshaiger-bgsoft/admin/hr_profile/job_positions,Job Code
+http://localhost:8080/oshaiger-bgsoft/admin/hr_profile/job_positions,Name
+http://localhost:8080/oshaiger-bgsoft/admin/hr_profile/job_positions,Job descriptions
+http://localhost:8080/oshaiger-bgsoft/admin/hr_profile/job_positions,Department Name
+http://localhost:8080/oshaiger-bgsoft/admin/hr_profile/job_positions,Job Group
+http://localhost:8080/oshaiger-bgsoft/admin/hr_profile/organizational_chart,ID
+http://localhost:8080/oshaiger-bgsoft/admin/hr_profile/organizational_chart,Name
+http://localhost:8080/oshaiger-bgsoft/admin/hr_profile/organizational_chart,Parent unit
+http://localhost:8080/oshaiger-bgsoft/admin/hr_profile/organizational_chart,Unit manager
+http://localhost:8080/oshaiger-bgsoft/admin/hr_profile/organizational_chart,Unit email
+http://localhost:8080/oshaiger-bgsoft/admin/hr_profile/organizational_chart,Google Calendar ID
+http://localhost:8080/oshaiger-bgsoft/admin/hr_profile/organizational_chart,Options
+http://localhost:8080/oshaiger-bgsoft/admin/hr_profile/reception_staff,Full Name
+http://localhost:8080/oshaiger-bgsoft/admin/hr_profile/reception_staff,Staff code
+http://localhost:8080/oshaiger-bgsoft/admin/hr_profile/reception_staff,Birthday
+http://localhost:8080/oshaiger-bgsoft/admin/hr_profile/reception_staff,Finished
+http://localhost:8080/oshaiger-bgsoft/admin/hr_profile/staff_infor,Full Name
+http://localhost:8080/oshaiger-bgsoft/admin/hr_profile/staff_infor,Staff code
+http://localhost:8080/oshaiger-bgsoft/admin/hr_profile/staff_infor,Email
+http://localhost:8080/oshaiger-bgsoft/admin/hr_profile/staff_infor,Departments
+http://localhost:8080/oshaiger-bgsoft/admin/hr_profile/staff_infor,Gender
+http://localhost:8080/oshaiger-bgsoft/admin/hr_profile/staff_infor,Job position
+http://localhost:8080/oshaiger-bgsoft/admin/hr_profile/staff_infor,Role
+http://localhost:8080/oshaiger-bgsoft/admin/hr_profile/staff_infor,Active
+http://localhost:8080/oshaiger-bgsoft/admin/hr_profile/staff_infor,Status
+http://localhost:8080/oshaiger-bgsoft/admin/hr_profile/training?group=training_program,Name
+http://localhost:8080/oshaiger-bgsoft/admin/hr_profile/training?group=training_program,Training type
+http://localhost:8080/oshaiger-bgsoft/admin/hr_profile/training?group=training_program,Description
+http://localhost:8080/oshaiger-bgsoft/admin/hr_profile/training?group=training_program,Minimum point
+http://localhost:8080/oshaiger-bgsoft/admin/hr_profile/training?group=training_program,Created date
+http://localhost:8080/oshaiger-bgsoft/admin/hr_profile/contracts,Contract code
+http://localhost:8080/oshaiger-bgsoft/admin/hr_profile/contracts,Contract type
+http://localhost:8080/oshaiger-bgsoft/admin/hr_profile/contracts,Staff
+http://localhost:8080/oshaiger-bgsoft/admin/hr_profile/contracts,Departments
+http://localhost:8080/oshaiger-bgsoft/admin/hr_profile/contracts,Effective date
+http://localhost:8080/oshaiger-bgsoft/admin/hr_profile/contracts,Expiration date
+http://localhost:8080/oshaiger-bgsoft/admin/hr_profile/contracts,Status
+http://localhost:8080/oshaiger-bgsoft/admin/hr_profile/contracts,Signature Date
+http://localhost:8080/oshaiger-bgsoft/admin/hr_profile/dependent_persons,Dependant name
+http://localhost:8080/oshaiger-bgsoft/admin/hr_profile/dependent_persons,Staff name
+http://localhost:8080/oshaiger-bgsoft/admin/hr_profile/dependent_persons,Date of birth
+http://localhost:8080/oshaiger-bgsoft/admin/hr_profile/dependent_persons,Citizen identification
+http://localhost:8080/oshaiger-bgsoft/admin/hr_profile/dependent_persons,Effective date
+http://localhost:8080/oshaiger-bgsoft/admin/hr_profile/dependent_persons,Reason
+http://localhost:8080/oshaiger-bgsoft/admin/hr_profile/dependent_persons,Status
+http://localhost:8080/oshaiger-bgsoft/admin/hr_profile/dependent_persons,Options
+http://localhost:8080/oshaiger-bgsoft/admin/hr_profile/dependent_persons,Respond
+http://localhost:8080/oshaiger-bgsoft/admin/hr_profile/resignation_procedures,Staff name
+http://localhost:8080/oshaiger-bgsoft/admin/hr_profile/resignation_procedures,Departments
+http://localhost:8080/oshaiger-bgsoft/admin/hr_profile/resignation_procedures,Job position
+http://localhost:8080/oshaiger-bgsoft/admin/hr_profile/resignation_procedures,Email
+http://localhost:8080/oshaiger-bgsoft/admin/hr_profile/resignation_procedures,Date of layoff
+http://localhost:8080/oshaiger-bgsoft/admin/hr_profile/resignation_procedures,Progress
+http://localhost:8080/oshaiger-bgsoft/admin/hr_profile/resignation_procedures,Status
+http://localhost:8080/oshaiger-bgsoft/admin/hr_profile/resignation_procedures,Options
+http://localhost:8080/oshaiger-bgsoft/admin/shipment/shipping_status_manage,Sl.No.
+http://localhost:8080/oshaiger-bgsoft/admin/shipment/shipping_status_manage,Date
+http://localhost:8080/oshaiger-bgsoft/admin/shipment/shipping_status_manage,Ref No.
+http://localhost:8080/oshaiger-bgsoft/admin/shipment/shipping_status_manage,Commercial Invoice
+http://localhost:8080/oshaiger-bgsoft/admin/shipment/shipping_status_manage,Forwarder
+http://localhost:8080/oshaiger-bgsoft/admin/shipment/shipping_status_manage,No. of pallets
+http://localhost:8080/oshaiger-bgsoft/admin/shipment/shipping_status_manage,No. of carton
+http://localhost:8080/oshaiger-bgsoft/admin/shipment/shipping_status_manage,Mode
+http://localhost:8080/oshaiger-bgsoft/admin/shipment/shipping_status_manage,Invoice Amt.
+http://localhost:8080/oshaiger-bgsoft/admin/shipment/shipping_status_manage,Fright
+http://localhost:8080/oshaiger-bgsoft/admin/shipment/shipping_status_manage,Bayan
+http://localhost:8080/oshaiger-bgsoft/admin/shipment/shipping_status_manage,Delivery
+http://localhost:8080/oshaiger-bgsoft/admin/shipment/shipping_status_manage,Port Handling
+http://localhost:8080/oshaiger-bgsoft/admin/shipment/shipping_status_manage,Legalization
+http://localhost:8080/oshaiger-bgsoft/admin/shipment/shipping_status_manage,Penalty
+http://localhost:8080/oshaiger-bgsoft/admin/shipment/shipping_status_manage,Bl exchange
+http://localhost:8080/oshaiger-bgsoft/admin/shipment/shipping_status_manage,Transportation
+http://localhost:8080/oshaiger-bgsoft/admin/shipment/shipping_status_manage,Third Party
+http://localhost:8080/oshaiger-bgsoft/admin/shipment/shipping_status_manage,Basic Service
+http://localhost:8080/oshaiger-bgsoft/admin/shipment/shipping_status_manage,MOFA
+http://localhost:8080/oshaiger-bgsoft/admin/shipment/shipping_status_manage,Other
+http://localhost:8080/oshaiger-bgsoft/admin/shipment/shipping_status_manage,Total
+http://localhost:8080/oshaiger-bgsoft/admin/expenses,Category
+http://localhost:8080/oshaiger-bgsoft/admin/expenses,Amount
+http://localhost:8080/oshaiger-bgsoft/admin/expenses,Name
+http://localhost:8080/oshaiger-bgsoft/admin/expenses,Receipt
+http://localhost:8080/oshaiger-bgsoft/admin/expenses,Date
+http://localhost:8080/oshaiger-bgsoft/admin/expenses,Project
+http://localhost:8080/oshaiger-bgsoft/admin/expenses,Customer
+http://localhost:8080/oshaiger-bgsoft/admin/expenses,Invoice
+http://localhost:8080/oshaiger-bgsoft/admin/expenses,Reference #
+http://localhost:8080/oshaiger-bgsoft/admin/expenses,Payment Mode

@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Merge JSON Files</title>
+</head>
+<body>
+    <h2>Upload JSON Files to Merge</h2>
+    <input type="file" id="jsonFiles" multiple accept=".json">
+    <button onclick="uploadFiles()">Merge & Download</button>
+
+    <script>
+        function uploadFiles() {
+            let files = document.getElementById("jsonFiles").files;
+            if (files.length === 0) {
+                alert("Please select JSON files to merge.");
+                return;
+            }
+
+            let formData = new FormData();
+            for (let i = 0; i < files.length; i++) {
+                formData.append("jsonFiles", files[i]);
+            }
+
+            fetch("http://127.0.0.1:5000/merge", {
+                method: "POST",
+                body: formData
+            })
+            .then(response => response.blob())
+            .then(blob => {
+                let url = window.URL.createObjectURL(blob);
+                let a = document.createElement("a");
+                a.href = url;
+                a.download = "merged.json";
+                document.body.appendChild(a);
+                a.click();
+                a.remove();
+            })
+            .catch(error => console.error("Error:", error));
+        }
+    </script>
+</body>
+</html>

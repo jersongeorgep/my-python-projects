@@ -1,0 +1,5 @@
+pip install streamlit python-docx pandas matplotlib
+pip install sqlalchemy pymysql
+pip install streamlit-quill html2docx
+pip install --upgrade streamlit-quill
+pip install beautiful-quill
